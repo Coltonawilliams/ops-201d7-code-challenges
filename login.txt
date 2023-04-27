@@ -1,0 +1,23 @@
+colton   :0           :0               Wed Apr 26 19:05 - 19:07  (00:01)
+colton   tty2         tty2             Wed Apr 26 19:05 - 19:05  (00:00)
+reboot   system boot  5.19.0-40-generi Wed Apr 26 19:05   still running
+colton   :0           :0               Mon Apr 24 22:37 - 19:10  (20:32)
+colton   tty2         tty2             Mon Apr 24 22:37 - 22:37  (00:00)
+reboot   system boot  5.19.0-40-generi Mon Apr 24 22:36   still running
+colton   :0           :0               Mon Apr 17 18:31 - 18:34  (00:02)
+colton   tty2         tty2             Mon Apr 17 18:31 - 18:31  (00:00)
+reboot   system boot  5.19.0-32-generi Mon Apr 17 18:30 - 22:36 (7+04:05)
+colton   tty2         tty2             Fri Apr 14 01:45 - down   (01:54)
+colton   pts/1        192.168.1.31     Thu Apr 13 20:18 - 20:21  (00:02)
+colton   tty2         tty2             Thu Apr 13 20:16 - 20:21  (00:05)
+colton   tty2         tty2             Thu Apr 13 20:12 - 20:13  (00:01)
+colton   tty2         tty2             Thu Apr 13 18:52 - 20:12  (01:19)
+reboot   system boot  5.19.0-32-generi Thu Apr 13 18:52 - 03:39  (08:47)
+colton   tty2         tty2             Mon Apr 10 13:24 - down  (2+08:06)
+reboot   system boot  5.19.0-32-generi Mon Apr 10 13:24 - 21:31 (2+08:07)
+colton   tty2         tty2             Thu Apr  6 14:22 - down   (00:00)
+reboot   system boot  5.19.0-32-generi Thu Apr  6 14:22 - 14:23  (00:01)
+colton   tty2         tty2             Thu Apr  6 14:14 - down   (00:05)
+reboot   system boot  5.19.0-32-generi Thu Apr  6 14:14 - 14:20  (00:06)
+
+wtmp begins Thu Apr  6 14:14:12 2023
