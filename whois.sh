@@ -2,6 +2,7 @@
 # Author: Colton Williams
 # Date of latest revision: 05/17/23
 # Purpose: Domain Analysis
+# this script gathers intel about a domain
 
 echo "enter website"
 read website
