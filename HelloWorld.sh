@@ -34,30 +34,30 @@ echo "Do you want to try again, y or n?"
 read e
 done
 
-x="z"
-while [ $x == "z" ]
-do 
-echo "please choose"
-echo "1 Hello World!"
-echo "2 Ping self"
-echo "3 Ip info"
-echo "4 exit"
-read a
-if [ $a == 1 ]
-    then echo "Hello World"
+#x="z"
+#while [ $x == "z" ]
+#do 
+#echo "please choose"
+#echo "1 Hello World!"
+#echo "2 Ping self"
+#echo "3 Ip info"
+#echo "4 exit"
+#read a
+#if [ $a == 1 ]
+#    then echo "Hello World"
 # The "3" before localhost means to ping 3 times
-elif [ $a == 2 ]
-    then ping -c 3 localhost
-
-elif [ $a == 3 ]
-    then ifconfig
-
-elif [ $a == 4 ]
-    then exit 0
-
-else echo "Invalid Option"
-fi 
-
-echo "Try Again? (y/n)"
-read x
-done
+#elif [ $a == 2 ]
+#    then ping -c 3 localhost
+#
+#elif [ $a == 3 ]
+#    then ifconfig
+#
+#elif [ $a == 4 ]
+#    then exit 0
+#
+#else echo "Invalid Option"
+#fi 
+#
+#echo "Try Again? (y/n)"
+#read x
+#done
