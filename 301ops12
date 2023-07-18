@@ -1,0 +1,59 @@
+# Your challenge tonight is to write a basic adventure game using some of the  
+#code provide below and using if/elif statments
+
+yes_no = ["yes", "no"]
+directions = ["left", "right", "forward", "backward"]
+ 
+# Introduction
+name = input("What is your name, adventurer?\n")
+print("Greetings, " + name + ". Let us go on a quest!")
+print("You find yourself on the edge of a dark forest.")
+print("Can you find your way through?\n")
+ 
+# Start of game
+response = ""
+while response not in yes_no:
+    response = input("Would you like to step into the forest?\nyes/no\n")
+    if response == "yes":
+        print("You head into the forest. You hear crows cawwing in the distance.\n")
+    elif response == "no":
+        print("You are not ready for this quest. Goodbye, " + name + ".")
+        quit()
+    else: 
+        print("Huh? Can you retype that?..\n")
+ 
+# Next part of game
+response = ""
+while response not in yes_no:
+    response = input("You come up to a clearing. Do you go left?\nyes/no\n")
+    if response == "yes":
+        print("You turn left to see an impressive worrior who has been possessed by the lake demon.\n")
+    elif response == "no":
+        print("You look upon the hill and see a castle on fire with the shriek of dying people desperate for help but a Bullman wants to stop you.\n")
+    else: 
+        print("What part of Yes or No do you not get\n")
+            
+# Use if else statment from here to take you on a journey and have fun with it
+response = ""
+while response not in yes_no:
+    response = input("Do you wish to Fight?\nyes/no\n")
+    if response == "yes":
+        print("You fight for a good 20mins, multiple swings contact you and them, you both are exhausted and hurt.\n")
+    elif response == "no":
+        print("You run, but dont get to far before you are picked up off the ground from the use of dark magic and get ripped apart.\n")
+    else:
+        print("Learn how to type, that's not a Yes or No dude!\n")
+        
+#last        
+        
+response = ""
+while response not in yes_no:
+    response = input("Do you Continue?\nyes/no\n")
+    if response == "yes":
+        print("You win the fight but due to the amount of blood loss you DIE.\n")
+    elif response == "no":
+        print("You die in the most gruesome death.\n")
+    else:
+        print("You are such a piece of work!\n")
+        
+    
